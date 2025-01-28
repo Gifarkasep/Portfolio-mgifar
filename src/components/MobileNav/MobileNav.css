@@ -1,0 +1,79 @@
+.mobile-menu {
+  width: 100vw;
+  height: 100vh;
+  display: none; /* Tetap tersembunyi secara default */
+  background-color: rgba(0, 0, 0, 0.5); /* Lebih gelap untuk kontras */
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 999 !important;
+  opacity: 0;
+  box-shadow: 0px 29px 80px rgba(0, 0, 0, 0.3);
+  transition: all 0.4s ease; /* Animasi lebih smooth */
+  transform: translateX(-100vw); /* Mulai dari luar layar */
+}
+
+.mobile-menu-container {
+  width: 75vw; /* Sedikit lebih lebar untuk navigasi yang lebih nyaman */
+  max-width: 300px; /* Batasi lebar maksimum */
+  height: 100vh;
+  background-color: #342864;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Untuk menyusun konten lebih rapi */
+}
+
+.mobile-menu.active {
+  opacity: 1;
+  transform: translateX(0); /* Masuk ke layar saat aktif */
+}
+
+.mobile-menu img {
+  margin-bottom: 2rem;
+  width: 120px; /* Tambahkan ukuran tetap */
+}
+
+.mobile-menu ul {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  list-style: none;
+  padding: 0; /* Hilangkan padding default */
+}
+
+.mobile-menu ul li {
+  text-align: left;
+}
+
+.mobile-menu ul li a {
+  color: #ffffff; /* Warna teks putih untuk kontras */
+  font-size: 1.2rem;
+  text-decoration: none;
+  transition: color 0.3s ease; /* Tambahkan efek hover */
+}
+
+.mobile-menu ul li a:hover {
+  color: #a993fe; /* Warna hover */
+}
+
+.contact-btn {
+  background-color: #a993fe;
+  color: #342864;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.contact-btn:hover {
+  background-color: #342864; /* Sedikit lebih gelap saat hover */
+}
+
+@media (max-width: 769px) {
+  .mobile-menu {
+    display: block;
+  }
+}

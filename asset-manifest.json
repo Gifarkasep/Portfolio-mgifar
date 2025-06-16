@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Portfolio-mgifar/static/css/main.0f33e3b0.css",
+    "main.css": "/Portfolio-mgifar/static/css/main.cd67fc6f.css",
     "main.js": "/Portfolio-mgifar/static/js/main.2e2bb0e5.js",
     "static/media/slick.svg": "/Portfolio-mgifar/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/Portfolio-mgifar/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/Portfolio-mgifar/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/Portfolio-mgifar/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Portfolio-mgifar/index.html",
-    "main.0f33e3b0.css.map": "/Portfolio-mgifar/static/css/main.0f33e3b0.css.map",
+    "main.cd67fc6f.css.map": "/Portfolio-mgifar/static/css/main.cd67fc6f.css.map",
     "main.2e2bb0e5.js.map": "/Portfolio-mgifar/static/js/main.2e2bb0e5.js.map"
   },
   "entrypoints": [
-    "static/css/main.0f33e3b0.css",
+    "static/css/main.cd67fc6f.css",
     "static/js/main.2e2bb0e5.js"
   ]
 }

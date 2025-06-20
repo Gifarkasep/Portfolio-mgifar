@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Portfolio-mgifar/static/css/main.26f1a79c.css",
-    "main.js": "/Portfolio-mgifar/static/js/main.a84a18d4.js",
+    "main.css": "/Portfolio-mgifar/static/css/main.563914cd.css",
+    "main.js": "/Portfolio-mgifar/static/js/main.b06e6096.js",
     "static/media/slick.svg": "/Portfolio-mgifar/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/Portfolio-mgifar/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/Portfolio-mgifar/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/Portfolio-mgifar/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Portfolio-mgifar/index.html",
-    "main.26f1a79c.css.map": "/Portfolio-mgifar/static/css/main.26f1a79c.css.map",
-    "main.a84a18d4.js.map": "/Portfolio-mgifar/static/js/main.a84a18d4.js.map"
+    "main.563914cd.css.map": "/Portfolio-mgifar/static/css/main.563914cd.css.map",
+    "main.b06e6096.js.map": "/Portfolio-mgifar/static/js/main.b06e6096.js.map"
   },
   "entrypoints": [
-    "static/css/main.26f1a79c.css",
-    "static/js/main.a84a18d4.js"
+    "static/css/main.563914cd.css",
+    "static/js/main.b06e6096.js"
   ]
 }
